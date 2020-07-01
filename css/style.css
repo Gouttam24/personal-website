@@ -1,0 +1,120 @@
+/*........background image editing using css */
+.bgimg{
+    background-image: url('../img/1.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 660px;
+}
+
+/*........Welcome text  editing using css */
+.headerset{
+    padding-top: 220px ;
+    box-sizing: border-box ;
+}
+
+headerset h1{
+    font-size: 72px ;
+    font-weight: bold;
+}
+
+headerset h2{
+    font-size: 42px;
+}
+
+/*........social media page editing using css */
+.oursocial{
+    padding: 100px 0px 60px;
+    height: 700px;
+
+}
+
+.oursocial h1{
+    font-size: 50px ;
+    font-weight: bold;
+    
+}
+
+/*........icon margin adjurst editing using css */
+.rowsetting{
+    margin: 80px 0px;
+}
+
+/*........our team's text editing using css */
+.figure{
+    font-size: 20px ;
+    font-weight: bold;
+}
+
+/*........our team page adjurst editing using css */
+.ourteam{
+    padding: 150px 0px 80px;
+    height: 700px;
+}
+
+/*........ adjurst photos of our team editing using css */
+.teamsetting{
+    margin-top: 60px;
+}
+
+/*........ adjurst footer text of our website footer editing using css */
+
+.footer{
+    height: 30px;
+}
+
+.footer h6{
+    line-height: 50px;
+}
+
+/*........making responsive */
+
+@media(min-width: 992px){
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+
+}
+
+@media(min-width: 575px) and (max-width: 767px){
+.oursocial{
+    height: 1200px;
+}
+.ourteam{
+    height: 2000px ;
+        
+}    
+
+}
+
+@media(min-width: 480px) and (max-width: 574px){
+.oursocial{
+    height: 900px;
+}
+.ourteam{
+    height: 1500px ;
+    
+}    
+
+}
+
+@media(max-width: 479px){
+
+.headerset h1{
+    font-size: 42px ;
+    font-weight: bold;
+}
+    
+.headerset h2{
+    font-size: 22px;
+}
+
+.oursocial{
+    height: 1000px;
+}
+.ourteam{
+    height: 1500px ;
+    
+
+}
